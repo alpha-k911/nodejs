@@ -7,7 +7,10 @@ var sqlConfig = {
     user: 'nomad',
     password: 'nomad',
     server: 'localhost',
-    database: 'Persons'
+    database: 'Persons',
+    options: {
+      encrypt: true
+    }
 }
 
 // Start server and listen on http://localhost:8081/
